@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anudeep.intermediate"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.anudeep.intermediate.MenuPage"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.Eamcet"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.Material"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.TimeTable"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.Marks"
+            android:label="@string/app_name">
+         </activity>
+         
+           <activity
+            android:name="com.anudeep.intermediate.ArrayList"
+            android:label="@string/app_name">
+         </activity>
+         <activity
+            android:name="com.anudeep.intermediate.Pdf1"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.Pdf2"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.Pdf3"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.Pdf4"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.Pdf5"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.Pdf6"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.Pdf7"
+            android:label="@string/app_name">
+         </activity>
+         <activity
+            android:name="com.anudeep.intermediate.E1"
+            android:label="@string/app_name">
+         </activity>
+         <activity
+            android:name="com.anudeep.intermediate.E2"
+            android:label="@string/app_name">
+         </activity>
+         <activity
+            android:name="com.anudeep.intermediate.E3"
+            android:label="@string/app_name">
+         </activity>
+         <activity
+            android:name="com.anudeep.intermediate.E4"
+            android:label="@string/app_name">
+         </activity>
+         <activity
+            android:name="com.anudeep.intermediate.E5"
+            android:label="@string/app_name">
+         </activity>
+         <activity
+            android:name="com.anudeep.intermediate.E6"
+            android:label="@string/app_name">
+         </activity>
+         <activity
+            android:name="com.anudeep.intermediate.E7"
+            android:label="@string/app_name">
+         </activity>
+         <activity
+            android:name="com.anudeep.intermediate.GridMenu"
+            android:label="@string/app_name">
+         </activity>
+         <activity
+            android:name="com.anudeep.intermediate.ImageAdapter"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.MpcMarks"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.BiPC"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.HouseMaster"
+            android:label="@string/app_name">
+         </activity>
+          <activity
+            android:name="com.anudeep.intermediate.YouTube"
+            android:label="@string/app_name">
+         </activity>
+    </application>
+
+</manifest>
